@@ -1,0 +1,65 @@
+@media only screen and (max-width: 735px) {
+    .desktop {
+        display: none;
+    }
+
+    #wrapper {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #avatar-outer {
+        width: auto;
+    }
+
+    #avatar {
+        width: 77px;
+        height: 77px;
+        margin: 0;
+    }
+
+    header {
+        padding: 0 20px;
+        margin-bottom: 0;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .edit-profile.mobile {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .detail.mobile  {
+        display: block;
+        clear: both;
+        font-size: 15px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #image-post {
+        grid-template-columns: calc(33.1% - 1px) calc(33.1% - 1px) calc(33.1% - 1px);
+        grid-gap: 3px;
+    }
+
+    footer nav, #copyright {
+        float: none;
+    }
+
+    footer nav li {
+        margin-bottom: 10px;
+    }
+
+    #footer-inner {
+        max-width: 360px;
+        text-align: center;
+    }
+
+    .mobile.grid {
+        display: grid;
+    }
+}
